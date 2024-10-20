@@ -49,7 +49,7 @@ Security has been a consistent focus throughout the Computer Science program. Th
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
-  <a href="https://github.com/Mendez-Will/CS499/tree/main/EnhancementOne" 
+  <a href="https://github.com/Mendez-Will/Mendez-Will.github.io/tree/ea1bbaf0459eac3fc56d590a4326d356a3f20ba3/Enhancement%20One" 
      target="_blank" 
      style="text-decoration: none;">
     <button style="
@@ -104,7 +104,7 @@ The finished enhancement demonstrates my ability to analyze weaknesses in an exi
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
-  <a href="https://github.com/Mendez-Will/CS499/tree/main/EnhancementTwo" 
+  <a href="https://github.com/Mendez-Will/Mendez-Will.github.io/tree/ea1bbaf0459eac3fc56d590a4326d356a3f20ba3/Enhancement%20Two" 
      target="_blank" 
      style="text-decoration: none;">
     <button style="
@@ -154,7 +154,7 @@ Ultimately, this project demonstrates my ability to analyze, optimize, and valid
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
-  <a href="https://github.com/Mendez-Will/CS499/tree/main/EnhancemenThree" 
+  <a href="https://github.com/Mendez-Will/Mendez-Will.github.io/tree/ea1bbaf0459eac3fc56d590a4326d356a3f20ba3/Enhancement%20Three" 
      target="_blank" 
      style="text-decoration: none;">
     <button style="
