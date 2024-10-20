@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_event">
+
+    <fragment
+        android:id="@+id/navigation_event"
+        android:name="com.example.wilfredo_mendez_event_app.Login"
+        android:label="login"
+        tools:layout="login">
+        <action
+            android:id="@+id/login_to_home"
+            app:destination="@id/navigation_home"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.wilfredo_mendez_event_app.StartPage"
+        android:label="homepage"
+        tools:layout="@layout/activity_main"/>
+    <fragment
+        android:id="@+id/navigation_data"
+        android:name="com.example.wilfredo_mendez_event_app.DataFragment"
+        android:label="data_fragment"
+        tools:layout="fragment_data_fragement"/>
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.wilfredo_mendez_event_app.SettingFragment"
+        android:label="sms_fragement"
+        tools:layout="@layout/smsnotification"/>
+
+
+
+
+</navigation>

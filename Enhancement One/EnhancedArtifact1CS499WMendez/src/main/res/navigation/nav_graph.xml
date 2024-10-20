@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Navigation resource file for handling fragment transitions within the app -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_event">
+    <!-- Fragment representing the login screen -->
+    <fragment
+        android:id="@+id/navigation_event"
+        android:name="com.example.wilfredo_mendez_event_app.Login"
+        android:label="login"
+        tools:layout="@layout/login">
+        <!-- Action for navigating from login to home -->
+        <action
+            android:id="@+id/login_to_home"
+            app:destination="@id/navigation_toolbar"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+
+        <!-- Action for navigating from login to settings -->
+        <action
+            android:id="@+id/action_navigation_event_to_navigation_settings"
+            app:destination="@id/navigation_settings" />
+    </fragment>
+
+    <!-- Fragment representing the homepage -->
+    <fragment
+        android:id="@+id/navigation_toolbar"
+        android:name="com.example.wilfredo_mendez_event_app.StartPage"
+        android:label="homepage"
+        tools:layout="@layout/editevent">
+        <!-- Actions for navigating from home to other fragments -->
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_data"
+            app:destination="@id/navigation_data" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_settings"
+            app:destination="@id/navigation_settings" />
+        <action
+            android:id="@+id/action_navigation_toolbar_to_editEventFragment"
+            app:destination="@id/editEventFragment" />
+    </fragment>
+    <!-- Fragment representing the data display -->
+    <fragment
+        android:id="@+id/navigation_data"
+        android:name="com.example.wilfredo_mendez_event_app.RecyclerFragment"
+        android:label="data_fragment"
+        tools:layout="@layout/eventgrid">
+        <!-- Actions for navigating within the data fragment -->
+        <action
+            android:id="@+id/action_navigation_data_to_navigation_home"
+            app:destination="@id/navigation_toolbar" />
+        <action
+            android:id="@+id/action_to_edit_event"
+            app:destination="@id/editEventFragment" />
+    </fragment>
+    <!-- Fragment representing the settings for SMS notifications -->
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.wilfredo_mendez_event_app.SettingFragment"
+        android:label="sms_fragment"
+        tools:layout="@layout/smsnotification">
+        <!-- Action for navigating back to the home fragment -->
+        <action
+            android:id="@+id/action_navigation_settings_to_navigation_home"
+            app:destination="@id/navigation_toolbar" />
+    </fragment>
+    <!-- Fragment for editing events -->
+    <fragment
+        android:id="@+id/editEventFragment"
+        android:name="com.example.wilfredo_mendez_event_app.EditEventFragment"
+        android:label="Edit Event"
+        tools:layout="@layout/editevent" />
+</navigation>
+

@@ -1,0 +1,73 @@
+<!--
+    File: editevent.xml
+    Purpose: Defines the layout for the event creation and editing screen.
+    This screen allows the user to input event details such as the name,
+    description, date, and time, with a save button to confirm the entry.
+    Components are arranged using a RelativeLayout for straightforward alignment.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--
+        EditText for Event Name:
+        Allows users to enter the name of the event.
+        It takes the full width and is positioned at the top of the layout.
+    -->
+    <EditText
+        android:id="@+id/editTextEventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Name" />
+    <!--
+        EditText for Event Description:
+        Users can input a brief description of the event.
+        Positioned directly below the Event Name field.
+    -->
+    <EditText
+        android:id="@+id/editTextEventDescription"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:hint="Event Description"
+        android:layout_below="@id/editTextEventName" />
+
+    <!--
+        DatePicker:
+        Enables users to select a date for the event.
+        Set to use spinner mode for easy scrolling.
+        Positioned below the Event Description field.
+    -->
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:layout_below="@id/editTextEventDescription" />
+    <!--
+        TimePicker:
+        Allows users to set the event's time.
+        Uses spinner mode to provide a smooth selection experience.
+        Positioned directly below the DatePicker.
+    -->
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:layout_below="@id/datePicker" />
+    <!--
+        Save Button:
+        Confirms and saves the event details input by the user.
+        Positioned at the bottom of the layout to ensure easy access.
+    -->
+    <Button
+        android:id="@+id/buttonSaveEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Event"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
+
