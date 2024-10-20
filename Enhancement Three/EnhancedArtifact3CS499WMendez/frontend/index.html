@@ -1,0 +1,50 @@
+<!-- Created by Wilfredo Mendez III -->
+<!-- Created on 10/4/2024 -->
+<!-- Version 1 -->
+<!-- This code outlines the display of the data table, chart, and map. It uses the app.js
+ File to define what the Table, Chart, and Map will be. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Rescue Data</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Include Chart.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> <!-- Include Plotly.js -->
+</head>
+<body>
+    <h1>Animal Rescue Data</h1>
+
+    <!-- Table for displaying animal data -->
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Species</th>
+                <th>Location</th>
+                <th>Rescue Type</th>
+            </tr>
+        </thead>
+        <tbody id="animals-table-body">
+            <!-- Data will be dynamically inserted here -->
+        </tbody>
+    </table>
+
+    <!-- Placeholder for Chart.js chart -->
+    <canvas id="animalChart" width="400" height="200"></canvas>
+
+    <!-- Placeholder for Plotly.js graph -->
+    <div id="plotlyGraph" style="width:600px;height:400px;"></div>
+
+    <script src="scripts/app.js"></script> 
+
+        <!-- Notes for database:
+        1. If transitioning to a database for data storage,
+           the app.js file should be updated to fetch data from the database.
+        2. Consider using AJAX calls or Fetch API to retrieve data 
+           from a server-side endpoint connected to the database.
+        3. Ensure that the HTML remains dynamic by retaining the 
+           structure for inserting data into the table and charts. -->
+</body>
+</html>
