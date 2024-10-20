@@ -27,7 +27,7 @@ The program gave me hands-on experience with software engineering and database m
 Security has been a consistent focus throughout the Computer Science program. Throughout my courses I learned to identify and mitigate vulnerabilities related to input handling, memory management, and data validation. In CS305 Software Security, I learned the importance of bounds checking, input sanitization, and proper handling of arrays, pointers, and strings. This knowledge has allowed me to develop software with a security-first mindset, preventing potential exploits like buffer overflows or arbitrary code execution. My capstone project enhancements integrate these principles, showcasing my commitment to building secure and resilient software solutions.
 
 <div style="text-align: center; margin-bottom: 15px;">
-  <h1>Artifacts</h1>
+  <h1>Code Review</h1>
 </div>
 
 <div style="text-align: center;">
@@ -40,8 +40,25 @@ Security has been a consistent focus throughout the Computer Science program. Th
   </iframe>
 </div>
 
+<div style="text-align: center; margin-bottom: 15px; margin-top: 30px;">
+  <h1>Course Outcomes</h1>
+</div>
 
-For this portfolio, I have compiled three projects from the program to improve upon three fields: Software Design and Engineering, Algorithms and Data Structure, and Databases.  These artifact enhancements aim to showcase my growth as a software developer and my finished projects.
+With the code enhancements I demonstrated all five course outcomes:
+
+Course Outcome 1: I employed strategies to create a collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science by completing the Database enhancement. In the Databases enhancement, I reorganized the application to follow a modular architecture, separating frontend and backend components for improved clarity and maintenance. In the comments, I also highlight ways in which a developer could connect to a database with helpful hints on how developers could connect the application to a database, facilitating future integration. This structure makes it easier for other developers to contribute and integrate new features or connect external databases. The separation of concerns helps stakeholders understand the system’s architecture, ensuring that they can make informed decisions about future development. 
+
+Course Outcome 2: I Designed, developed, and delivered professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts in the Databases enhancement and in the code review. In the Databases enhancement, I created a portable web application with the purpose of having a ready made, coherent and technically sound starter for web applications that other developers (and myself) could use in the future. In the code review, I broke down all of the original code and how it works and my planned improvements. This breakdown ensured that my communication was clear and detailed, allowing others to understand the code’s structure and rationale behind the enhancements.
+
+Course outcome 3: I Designed and Evaluated computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices by completing the Software Design and Engineering and Data Structure and Algoritms enhancements. In the Software Design and Engineering enhancement, I used tools such as Android Studio, SQLite, and Java to implement a robust event notification app. The improvements focused on refining the user experience, such as updating the UI design, enabling notifications across multiple Android API levels, and managing event data more efficiently with better database handling. These changes showcase my ability to iteratively improve software and adopt innovative practices that align with real-world industry goals. In the Data Structure and Algoritms enhancement I evaluated the trade-offs between ArrayList and HashMap for storing and retrieving appointments. While the ArrayList’s ordered nature was beneficial in the original implementation, the HashMap provided superior performance for retrieval and deletion operations. I ensured the correctness and efficiency of the new solution through timing tests and documented my decisions in the code comments to reflect a deep understanding of algorithmic choices and data structure optimization.
+
+Course outcome 4: I Demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals by completing the Database and Data Structures and Algorithms enhancements. In the Data Structures and Algorithms enhancement, this outcome was met through the incorporation of nanoTime-based performance testing into the code. I also modified the test cases to thoroughly evaluate both the HashMap and ArrayList, ensuring their boundaries were respected. This use of innovative testing techniques showcases my ability to apply appropriate tools and strategies to create value through optimized code. In the Database enhancement, I implemented React for the frontend, along with Plotly.js and Leaflet.js for charts and maps,  reflecting a strategic use of modern frameworks that offer greater flexibility and responsiveness.This transition not only improves application functionality but also positions the codebase as a strong foundation for future development.
+
+Course Outcome 5: I Developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources by completing the Software Engineering and Design enhancement. In the enhancement Security was at the forefront of development, and where a lot of improvement was done to make it more secure. One of the key improvements was encrypting and separating the login credentials from the event database, preventing unauthorized access to sensitive information. I also ensured there were no hardcoded values (magic numbers), and used login attempt tracking to stop brute force attacks. The app now follows best security practices by ensuring compliance with Android API requirements, and validating inputs to prevent unauthorized actions or data corruption.
+
+<div style="text-align: center; margin-bottom: 15px; margin-top: 30px;">
+  <h1>Artifacts</h1>
+</div>
 
 <div style="text-align: center; margin-bottom: 30px;">
   <h1>Software Design and Engineering</h1>
@@ -98,14 +115,6 @@ Reflecting on the enhancements done, I learned a lot about Android Development, 
 
 The finished enhancement demonstrates my ability to analyze weaknesses in an existing project and make improvements that align with modern software engineering practices. By tackling both front-end UI elements and back-end database design, I showcased my versatility as a developer. This project now serves as a testament to my technical skills and my ability to improve software iteratively based on feedback and new knowledge.
 
-*Course outcomes met:*
-
-With this enhancement, I have demonstrated course outcomes 3 and 5:
-
-I have demonstrated an ability to design and evaluate computing solutions that solve given problems using algorithmic principles and computer science practices and standards appropriate to the solution while managing the trade-offs involved in design choices. This artifact required using Android Studio, SQLite, and Java to implement a robust event notification app. The improvements focused on refining the user experience, such as updating the UI design, enabling notifications across multiple Android API levels, and managing event data more efficiently with better database handling. These changes showcase my ability to iteratively improve software and adopt innovative practices that align with real-world industry goals.
-
-I have developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.  Security was at the forefront of development in this app, and where a lot of improvement was done to make it more secure. One of the key improvements was separating the login credentials from the event database, preventing unauthorized access to sensitive information. I also ensured there were no hardcoded values (magic numbers) that could leave the system vulnerable to reverse engineering or exploitation. The app now follows best security practices by requesting permissions dynamically, ensuring compliance with Android API requirements, and validating inputs to prevent unauthorized actions or data corruption.
-
 <div style="text-align: center; margin-bottom: 30px;">
   <h1>Data Structure and Algorithms</h1>
 </div>
@@ -156,14 +165,6 @@ This enhancement also strengthened my testing skills. I had to create additional
 
 Ultimately, this project demonstrates my ability to analyze, optimize, and validate software systems through a combination of algorithmic knowledge, practical testing, and thoughtful refactoring. It also showcases my capacity to document findings effectively, ensuring that future developers can understand the rationale behind the design choices made.
 
-***Outcomes met:***
-
-With this artifact enhancement I have demonstrated course outcomes 3 and 4;
-
-I designed and evaluated computing solutions that address specific problems using algorithmic principles and appropriate computer science practices, all while managing the trade-offs inherent in design choices. This was achieved by evaluating the trade-offs between ArrayList and HashMap for storing and retrieving appointments. While the ArrayList’s ordered nature was beneficial in the original implementation, the HashMap provided superior performance for retrieval and deletion operations. I ensured the correctness and efficiency of the new solution through timing tests and documented my decisions in the code comments to reflect a deep understanding of algorithmic choices and data structure optimization.
-
-I demonstrated my ability to employ well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and meet industry-specific goals. This outcome was met through the incorporation of nanoTime-based performance testing into the code. Although I had limited experience with precise performance measurement tools prior to this project, I learned to use them effectively to assess the efficiency of the new structure. Furthermore, I modified the test cases to thoroughly evaluate both the HashMap and ArrayList, ensuring their boundaries were respected. This use of innovative testing techniques showcases my ability to apply appropriate tools and strategies to create value through optimized code.
-
 <div style="text-align: center; margin-bottom: 30px;">
   <h1>Databases</h1>
 </div>
@@ -192,6 +193,7 @@ I demonstrated my ability to employ well-founded and innovative techniques, skil
 </div>
 
 The artifact chosen for this section is the Animal Shelter Dashboard Application that I originally developed for CS 340: Advanced Programming Concepts. I chose this project because it highlights my ability to work with databases, develop full-stack applications, and apply programming concepts across multiple languages and frameworks. I selected this artifact because it reflects my versatility as a developer, showcasing how I can transition between different programming environments and enhance applications based on project needs.
+
 The original artifact was built using Python with the Dash framework, which displayed a preset list of animals from a fictional animal shelter. The data was visualized in three main formats: a pie chart representing animal distributions, a table listing animal details, and an interactive map to show the animal's location.
 
 ***List of Enhancements performed:***
@@ -208,10 +210,4 @@ The original artifact was built using Python with the Dash framework, which disp
 
 Rewriting the application from Python to JavaScript was both challenging and rewarding. It required me to learn and apply several new libraries and frameworks, which expanded my knowledge of JavaScript-based development and full-stack web applications. Adapting the code to a new framework emphasized the importance of modularity and separation of concerns, which are critical for maintaining and scaling modern web applications.
 
-***Outcomes met:***
 
-With this enhancement I have met outcomes 4 and 1;
-
-I have employed strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.  By carefully restructuring the application to follow a modular architecture, I ensured that the frontend and backend components are easier to understand, maintain, and improve. This modularity allows other developers to collaborate more effectively, making it straightforward for them to contribute new features or connect the system to external databases in the future. The clear separation of concerns also ensures that stakeholders can make decisions more effectively, understanding how individual components contribute to the system as a whole.
-
-I demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.  My decision to implement React for the frontend, along with Plotly.js and Leaflet.js for charts and maps, reflects a strategic use of modern frameworks that offer greater flexibility and responsiveness.This transition not only improves application functionality but also positions the codebase as a strong foundation for future development.
